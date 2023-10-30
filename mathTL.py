@@ -32,7 +32,7 @@ class MathTL():
         except ValueError:
             n1 = 0
        
-        return 6 + n2
+        return n1 + n2
 
     @staticmethod
     def sub(n1:float,n2:float) -> float:
