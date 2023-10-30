@@ -15,6 +15,6 @@ class Test_bubble_sort(unittest.TestCase):
    def test_string(self):
         result=MathTL.bubble_sort('d','f','g','a','b' )
         self.assertEqual(result,['a','b','d','f','g'])
-if __name__='main':
+if __name__=='main':
     unittest.main()      
 
