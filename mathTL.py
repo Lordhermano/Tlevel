@@ -72,8 +72,8 @@ class MathTL():
                 num2[j],num2[j+1] = num2[j+1],num2[j]
 
     return num2 
-unsorted_data = [4,2,5,3,1,7,6,0]
+    unsorted_data = [4,2,5,3,1,7,6,0]
 
-sorted_data  = bubble_sort(unsorted_data)
+    sorted_data  = bubble_sort(unsorted_data)
 
-print(sorted_data)    
+    print(sorted_data)    
