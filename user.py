@@ -11,5 +11,5 @@ print(answer)
 a = MathTL.sub(5,2)
 print(a)
 #Example of using the Bubblesort function
-answer = MathTL.bubble_sort(3,7,2,9,1,0)
+answer = MathTL.bubble_sort([3,7,2,9,1,0])
 print(answer)
