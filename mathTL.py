@@ -60,3 +60,20 @@ class MathTL():
             n1 = 0
 
         return n1 - n2
+    def bubble_sort(num):
+    num2 = num.copy()
+    n = len(num2)
+    #nested loops
+    for i in range(0, n-1): # outer loop
+        for j in range(0,n-i-1):#inner loop
+
+            if num2[j]>num2[j+1]: # check if swap
+                #swap # easy way
+                num2[j],num2[j+1] = num2[j+1],num2[j]
+
+    return num2 
+unsorted_data = [4,2,5,3,1,7,6,0]
+
+sorted_data  = bubble_sort(unsorted_data)
+
+print(sorted_data)    
