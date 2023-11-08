@@ -77,17 +77,19 @@ class MathTL():
     
       sorted_list=[]
       unsorted_list = data #sorted list 2nd is the unsorted list
-      string=(data[0])
+      string=data[0]
       for i in range(0,len(unsorted_list)):
-        if float(string)==True or int(string)==True:
+        try:#try is better than if in this case line by lin
+          string=float(string) 
           smallest=99999999999999
-        else:
+        except:
             smallest='z'
+        
         for j in range(0,len(unsorted_list)):
          if unsorted_list[j]<smallest:
             smallest=unsorted_list[j]
         sorted_list.append(smallest)
-        unsorted_list.pop(unsorted_list.index(smallest)
-      return sorted_list   
+        unsorted_list.pop(unsorted_list.index(smallest))
+      return(sorted_list)  
 
 
