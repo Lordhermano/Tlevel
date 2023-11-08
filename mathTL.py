@@ -77,9 +77,9 @@ class MathTL():
     
       sorted_list=[]
       unsorted_list = data #sorted list 2nd is the unsorted list
-      string=str(data[0])
+      string=data[0]
       for i in range(0,len(unsorted_list)):
-        if string.isdigit()==True:
+        if float(string)==True or int(string)==True:
           smallest=99999999999999
         else:
             smallest='z'
@@ -87,7 +87,7 @@ class MathTL():
          if unsorted_list[j]<smallest:
             smallest=unsorted_list[j]
         sorted_list.append(smallest)
-        unsorted_list.pop(unsorted_list.index(smallest))
+        unsorted_list.pop(unsorted_list.index(smallest)
       return sorted_list   
 
 
