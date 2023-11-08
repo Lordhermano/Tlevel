@@ -77,7 +77,7 @@ class MathTL():
     
       sorted_list=[]
       unsorted_list = data #sorted list 2nd is the unsorted list
-      string=data[0]
+      string=(data[0])
       for i in range(0,len(unsorted_list)):
         if float(string)==True or int(string)==True:
           smallest=99999999999999
