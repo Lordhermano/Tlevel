@@ -75,19 +75,19 @@ class MathTL():
       return num2 
     def Selection_sort(data:list):#you need 2 lists one is the
     
-      sorted_list=[] 
+      sorted_list=[]
       unsorted_list = data #sorted list 2nd is the unsorted list
-      string=data[0]  
+      string=str(data[0])
       for i in range(0,len(unsorted_list)):
         if string.isdigit()==True:
           smallest=99999999999999
         else:
-            smallest='Z'
-        for j in range(0,len(unsorted_list)):  
+            smallest='z'
+        for j in range(0,len(unsorted_list)):
          if unsorted_list[j]<smallest:
             smallest=unsorted_list[j]
         sorted_list.append(smallest)
         unsorted_list.pop(unsorted_list.index(smallest))
-      return(sorted_list)  
+      return sorted_list   
 
 
