@@ -76,7 +76,7 @@ class MathTL():
     def Selection_sort(data:list):#you need 2 lists one is the
     
       sorted_list=[]
-      unsorted_list = data #sorted list 2nd is the unsorted list
+      unsorted_list = data.copy() #sorted list 2nd is the unsorted list
       string=data[0]
       for i in range(0,len(unsorted_list)):
         try:#try is better than if in this case line by lin
