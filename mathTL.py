@@ -78,7 +78,7 @@ class MathTL():
       sorted_list=[] 
       unsorted_list = data #sorted list 2nd is the unsorted list
       for i in range(0,len(unsorted_list)):
-        if unsorted_list[0]=int(unsorted_list):
+        if unsorted_list[0]=int(unsorted_list[0]):
           smallest=99999999999999
         else:
             smallest='Z'
