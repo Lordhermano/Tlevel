@@ -82,8 +82,8 @@ class MathTL():
           for j in range(0,len(unsorted_list)):  
             if unsorted_list[j]<smallest:
                 smallest=unsorted_list[j]
-        sorted_list.append(smallest)
-        unsorted_list.pop(unsorted_list.index(smallest))
+          sorted_list.append(smallest)
+          unsorted_list.pop(unsorted_list.index(smallest))
         return(sorted_list)  
 
 
