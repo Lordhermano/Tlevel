@@ -77,13 +77,13 @@ class MathTL():
     
       sorted_list=[] 
       unsorted_list = data #sorted list 2nd is the unsorted list
-        for i in range(0,len(unsorted_list)):
-         smallest=99999999999999
-          for j in range(0,len(unsorted_list)):  
-            if unsorted_list[j]<smallest:
-                smallest=unsorted_list[j]
-          sorted_list.append(smallest)
-          unsorted_list.pop(unsorted_list.index(smallest))
-        return(sorted_list)  
+      for i in range(0,len(unsorted_list)):
+        smallest=99999999999999
+        for j in range(0,len(unsorted_list)):  
+         if unsorted_list[j]<smallest:
+            smallest=unsorted_list[j]
+        sorted_list.append(smallest)
+        unsorted_list.pop(unsorted_list.index(smallest))
+      return(sorted_list)  
 
 
